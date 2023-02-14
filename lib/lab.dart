@@ -23,7 +23,7 @@ class _TestPageState extends State<TestPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
       appBar: AppBar(
-        title: Text("Available Test data"),
+        title: Text("Available Test "),
       ),
       body: StreamBuilder<List<Products>>(
           stream: readUsers(),
