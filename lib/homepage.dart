@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ), //DrawerHeader
             ListTile(
               leading: const Icon(Icons.person),
-              title: const Text(' CUSTOMERS '),
+              title: const Text('CUSTOMERS '),
               onTap: () {
                 Navigator.pop(context);
               },
